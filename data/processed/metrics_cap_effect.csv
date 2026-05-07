@@ -1,0 +1,6 @@
+Método,Restricción,Equity final,CAGR,Vol anual,Sharpe,MaxDD
+1/N,Sin cap / cap no afecta,2.497,9.46%,10.84%,0.888,-22.18%
+Markowitz,Sin cap,3.009,11.49%,10.97%,1.047,-16.74%
+Markowitz,Cap 10%,2.381,8.94%,10.13%,0.896,-21.62%
+Mediana+MAD,Sin cap,3.587,13.44%,13.66%,0.992,-24.58%
+Mediana+MAD,Cap 10%,2.596,9.88%,10.71%,0.933,-21.03%

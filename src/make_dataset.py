@@ -18,7 +18,7 @@ def download_prices(tickers, start, end):
         if ("Close" in df.columns.get_level_values(0)):
             prices = df["Close"].copy()
         else:
-            # fallback: a veces aparece como "Adj Close" o "Price"
+            # fallback: a veces aparece como "Adj Close" o "Price" - si no hay MultiIndex 
             prices = df.xs(df.columns.levels[0][0], axis=1, level=0).copy()
     else:
         prices = df[["Close"]].copy()

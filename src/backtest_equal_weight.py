@@ -4,7 +4,7 @@ import numpy as np
 RETURNS_PATH = "data/processed/returns.csv"
 
 LOOKBACK_DAYS = 252      # no se usa en 1/N, pero lo dejamos para consistencia futura
-REBALANCE_DAYS = 21      # ~1 mes de trading
+REBALANCE_DAYS = 21      #  aprox 1 mes de trading
 
 def load_returns(path: str) -> pd.DataFrame:
     r = pd.read_csv(path, index_col=0, parse_dates=True)
