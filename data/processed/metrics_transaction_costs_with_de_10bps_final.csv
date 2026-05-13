@@ -1,0 +1,5 @@
+,Equity final,Retorno total,CAGR,Vol anual,Sharpe,MaxDD,Turnover total,Turnover medio,Coste total
+1/N,2.497,149.7%,9.46%,10.84%,0.888,-22.18%,0.0,0.0,0.0%
+Markowitz CAP10 + costes,2.358,135.8%,8.84%,10.13%,0.887,-21.69%,9.577,0.092,0.96%
+Mediana+MAD Random CAP10 + costes,2.547,154.69%,9.67%,10.71%,0.915,-21.18%,19.161,0.174,1.92%
+Mediana+MAD DE CAP10 + costes,2.551,155.11%,9.69%,10.67%,0.92,-19.85%,16.903,0.154,1.69%

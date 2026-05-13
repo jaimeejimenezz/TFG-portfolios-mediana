@@ -3,7 +3,7 @@ import numpy as np
 
 BT_PATH = "data/processed/backtest_equal_weight.csv"
 TRADING_DAYS = 252
-RF = 0.0  # tipo libre de riesgo (pon 0 para empezar)
+RF = 0.0  # tipo libre de riesgo (ponemos 0 para empezar)
 
 def max_drawdown(equity: pd.Series) -> float:
     peak = equity.cummax() #maximo acumulado alcanzado hasta ese momento
@@ -24,7 +24,7 @@ if __name__ == "__main__":
     vol = float(r.std(ddof=1) * np.sqrt(TRADING_DAYS))
     mean_ann = float(r.mean() * TRADING_DAYS)
 
-    sharpe = float((mean_ann - RF) / vol) if vol > 0 else np.nan #Cuanta rentabilidad obtienes por unidad de riesgo
+    sharpe = float((mean_ann - RF) / vol) if vol > 0 else np.nan #Cuanta rentabilidad obtenemos por unidad de riesgo
     mdd = max_drawdown(equity)
 
     print("=== 1/N (Equal Weight) ===")

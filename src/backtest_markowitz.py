@@ -11,7 +11,6 @@ CAP = 0.10              # tope por activo - ej: 0.10 si quieres tope por activo,
 
 TRADING_DAYS = 252
 
-
 def load_returns(path: str) -> pd.DataFrame:
     r = pd.read_csv(path, index_col=0, parse_dates=True).sort_index()
     return r
@@ -31,7 +30,7 @@ def markowitz_weights(returns_window: pd.DataFrame, lam: float = 10.0, cap=None)
     Sigma = Sigma + 1e-8 * np.eye(n) 
 
     def objective(w):
-        # minimizamos el negativo de la utilidad
+        # FUNCION OBJETIVO - minimizamos el negativo de la utilidad
         return -(mu @ w) + lam * (w @ Sigma @ w)
 
     cons = [{"type": "eq", "fun": lambda w: np.sum(w) - 1.0}] #todo el capital se reparte completo entre los activos(No sobra ni falta dinero)

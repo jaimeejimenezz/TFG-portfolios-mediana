@@ -1,0 +1,5 @@
+,Equity final,Retorno total,CAGR,Vol anual,Sharpe,MaxDD
+1/N,2.497,149.7%,9.46%,10.84%,0.888,-22.18%
+Markowitz CAP10,2.381,138.07%,8.94%,10.13%,0.896,-21.62%
+Mediana+MAD Random CAP10,2.596,159.62%,9.88%,10.71%,0.933,-21.03%
+Mediana+MAD DE CAP10,2.595,159.45%,9.87%,10.67%,0.936,-19.85%
