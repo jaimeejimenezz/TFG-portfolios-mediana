@@ -1,0 +1,4 @@
+Método,TURNOVER_PENALTY,Equity final,Retorno total,CAGR,Vol anual,Sharpe,MaxDD,Turnover optimización total,Turnover optimización medio,Último MAD,Última suma pesos,Último peso máximo
+Mediana+MAD DE turnover penalty 0.0005,0.0005,2.474,147.4%,9.36%,10.72%,0.888,-20.26%,9.067,0.082,0.0047021638699003224,1.0,0.1
+Mediana+MAD DE turnover penalty 0.001,0.001,2.612,161.19%,9.94%,10.68%,0.941,-20.07%,6.55,0.06,0.004825158776364264,1.0,0.1
+Mediana+MAD DE turnover penalty 0.002,0.002,2.595,159.46%,9.87%,11.25%,0.894,-23.38%,3.88,0.035,0.004399937845398104,1.0,0.1
