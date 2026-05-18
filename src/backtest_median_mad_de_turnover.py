@@ -21,7 +21,6 @@ POLISH = False
 PENALTY = 10.0
 
 # Valores de penalización explícita por turnover
-# 0.0000 ya lo tienes como DE base del Paso 8, por eso aquí probamos solo extensiones.
 TURNOVER_PENALTIES = [0.0005, 0.0010, 0.0020]
 
 TRADING_DAYS = 252

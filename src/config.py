@@ -4,6 +4,6 @@ TICKERS = [
     "GLD", "DBC", "VNQ",
 ]
 
-#fechas fijas para reproducibilidadar
+# Fechas fijas para reproducibilidad
 START = "2016-01-01"
 END   = "2026-03-01"  

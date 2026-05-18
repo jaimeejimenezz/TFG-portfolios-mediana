@@ -40,7 +40,7 @@ if __name__ == "__main__":
 
     df = pd.DataFrame({name: vals for name, vals in rows}).T
 
-    # formato bonito (porcentajes)
+    # Formateo de porcentajes para la salida por consola
     pretty = df.copy()
     pretty["Retorno total"] = (pretty["Retorno total"] * 100).round(2).astype(str) + "%"
     pretty["CAGR"] = (pretty["CAGR"] * 100).round(2).astype(str) + "%"

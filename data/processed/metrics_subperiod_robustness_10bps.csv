@@ -1,0 +1,21 @@
+Subperiodo,Interpretación,Método,N días,Retorno total,CAGR,Vol anual,Sharpe,MaxDD,Turnover total,Coste total
+2017-2019,Mercado previo al COVID,1/N,754,31.36%,9.55%,6.87%,1.362,-10.99%,0.0,0.0%
+2020,Shock COVID y recuperación,1/N,253,15.73%,15.67%,19.51%,0.845,-22.18%,0.0,0.0%
+2021-2022,"Inflación, subidas de tipos y mercado más difícil",1/N,503,-5.55%,-2.82%,12.33%,-0.171,-21.6%,0.0,0.0%
+2023-2026,Recuperación y nuevo ciclo alcista,1/N,791,56.99%,15.45%,9.63%,1.541,-9.8%,0.0,0.0%
+2017-2019,Mercado previo al COVID,Markowitz CAP10 + costes,754,30.74%,9.37%,6.66%,1.379,-11.36%,2.811,0.28%
+2020,Shock COVID y recuperación,Markowitz CAP10 + costes,253,15.46%,15.4%,17.68%,0.899,-20.38%,1.029,0.1%
+2021-2022,"Inflación, subidas de tipos y mercado más difícil",Markowitz CAP10 + costes,503,-6.73%,-3.43%,11.57%,-0.244,-21.69%,2.077,0.21%
+2023-2026,Recuperación y nuevo ciclo alcista,Markowitz CAP10 + costes,791,51.19%,14.08%,8.99%,1.509,-9.02%,3.66,0.37%
+2017-2019,Mercado previo al COVID,Mediana+MAD Random CAP10 + costes,754,28.67%,8.79%,7.11%,1.22,-13.27%,6.365,0.64%
+2020,Shock COVID y recuperación,Mediana+MAD Random CAP10 + costes,253,19.74%,19.66%,18.61%,1.059,-19.79%,1.419,0.14%
+2021-2022,"Inflación, subidas de tipos y mercado más difícil",Mediana+MAD Random CAP10 + costes,503,-6.01%,-3.06%,12.31%,-0.191,-21.18%,3.85,0.39%
+2023-2026,Recuperación y nuevo ciclo alcista,Mediana+MAD Random CAP10 + costes,791,58.78%,15.87%,9.58%,1.585,-9.81%,7.527,0.75%
+2017-2019,Mercado previo al COVID,Mediana+MAD DE CAP10 + costes,754,30.16%,9.21%,6.85%,1.321,-12.53%,6.275,0.63%
+2020,Shock COVID y recuperación,Mediana+MAD DE CAP10 + costes,253,19.79%,19.71%,18.56%,1.063,-19.85%,0.968,0.1%
+2021-2022,"Inflación, subidas de tipos y mercado más difícil",Mediana+MAD DE CAP10 + costes,503,-3.54%,-1.79%,12.33%,-0.085,-19.78%,3.872,0.39%
+2023-2026,Recuperación y nuevo ciclo alcista,Mediana+MAD DE CAP10 + costes,791,53.12%,14.54%,9.62%,1.459,-10.21%,5.788,0.58%
+2017-2019,Mercado previo al COVID,"Mediana+MAD DE + η = 0,0010",754,29.05%,8.9%,6.85%,1.278,-13.19%,2.117,0.21%
+2020,Shock COVID y recuperación,"Mediana+MAD DE + η = 0,0010",253,18.78%,18.7%,18.51%,1.02,-19.92%,0.362,0.04%
+2021-2022,"Inflación, subidas de tipos y mercado más difícil","Mediana+MAD DE + η = 0,0010",503,-3.84%,-1.94%,12.43%,-0.096,-20.14%,1.929,0.19%
+2023-2026,Recuperación y nuevo ciclo alcista,"Mediana+MAD DE + η = 0,0010",791,58.93%,15.9%,9.6%,1.586,-9.01%,2.142,0.21%

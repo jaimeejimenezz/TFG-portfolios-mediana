@@ -26,7 +26,7 @@ def markowitz_weights(returns_window: pd.DataFrame, lam: float = 10.0, cap=None)
     mu = X.mean().values               # media diaria
     Sigma = X.cov().values             # cov diaria
 
-    # Añado una regularización mínima a la diagonal para mejorar la estabilidad numérica de la optimización
+    # Regularización diagonal para mejorar la estabilidad numérica de la optimización.
     Sigma = Sigma + 1e-8 * np.eye(n) 
 
     def objective(w):
