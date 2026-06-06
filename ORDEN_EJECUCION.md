@@ -74,9 +74,7 @@ tfg-portfolio/
 │   └── processed/
 │
 ├── reports/
-│   └── figures/
-│
-└── docs/
+    └── figures/
 
 ---
 
@@ -234,7 +232,7 @@ Mediana+MAD DE CAP10
 
 Salidas principales:
 
-data/processed/metrics_random_vs_de_cap10_gross.csv
+data/processed/metrics_random_vs_de.csv
 
 Esta salida se corresponde con la comparación bruta entre búsqueda aleatoria y Differential Evolution.
 
@@ -364,7 +362,7 @@ reports/figures/de_turnover_penalty_turnover.png
 
 Los ficheros más importantes para comprobar las tablas de la memoria son:
 
-data/processed/metrics_random_vs_de_cap10_gross.csv
+data/processed/metrics_random_vs_de.csv
 data/processed/metrics_transaction_costs_with_de_10bps.csv
 data/processed/sensitivity_transaction_costs_with_de.csv
 data/processed/metrics_de_turnover_penalty_10bps.csv
